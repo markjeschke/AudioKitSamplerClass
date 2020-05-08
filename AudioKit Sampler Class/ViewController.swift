@@ -9,12 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // Instance variable of the SoundEngine singleton
+    let soundEngine = SoundEngine.shared
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBAction func playKick(_ sender: Any) {
+        soundEngine.playKick()
     }
-
-
+    
+    @IBAction func playSnare(_ sender: Any) {
+        soundEngine.playSmare()
+    }
+    
+    @IBAction func playHiHat(_ sender: Any) {
+        soundEngine.playHiHat()
+    }
+    
 }
 
