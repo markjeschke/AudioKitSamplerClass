@@ -12,7 +12,7 @@ final class SoundEngine {
     
     static let shared = SoundEngine()
     
-    // Create an instance variables of the MySampler objects.
+    // Create instance variables of the MySampler objects.
     // I renamed them from noise1, noise2, and mySampler1, so that they are descriptive and clear about the intended sounds from each MySampler object.
     var kick: MySampler
     var snare: MySampler
