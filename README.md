@@ -18,3 +18,6 @@ https://stackoverflow.com/questions/61646533/audiokit-aksampler-as-a-aknode-akpo
 
 If you're having trouble installing CocoaPods, please refer to their [installation instructions](https://cocoapods.org/#install).
 
+## Project Specs
+This project was built with Xcode 11.4.1 and AudioKit version 4.9.5
+
